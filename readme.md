@@ -13,11 +13,12 @@
 
 ## 📊 Most Used Languages
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MAJ-TT&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MAJ-TT&layout=compact&bg_color=000000&title_color=ffffff&text_color=ffffff)
 
-## 📈 GitHub Activity Graph
+## 🏆 GitHub Trophies
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=MAJ-TT&bg_color=000000&color=4fff67&line=4fff67&point=ffffff&area=true&hide_border=true)
+[![trophy](https://github-profile-trophy.vercel.app/?username=MAJ-TT)](https://github.com/ryo-ma/github-profile-trophy)
+
 
 ## Sheilds / Badges
 ![GitHub followers](https://img.shields.io/github/followers/MAJ-TT?style=social)
