@@ -19,9 +19,12 @@
 
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=MAJ-TT&bg_color=000000&color=4fff67&line=4fff67&point=ffffff&area=true&hide_border=true)
 
-## Test
+## Sheilds / Badges
 ![GitHub followers](https://img.shields.io/github/followers/MAJ-TT?style=social)
+
 ![GitHub forks](https://img.shields.io/github/forks/MAJ-TT/MAJ-TT?style=social)
+
 ![GitHub stars](https://img.shields.io/github/stars/MAJ-TT/MAJ-TT?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/MAJ-TT/your-repo)
+
 ![GitHub followers](https://img.shields.io/github/followers/MAJ-TT?style=social&color=blue)
+
