@@ -4,6 +4,7 @@ I'm a beginner and know mostly basics
 I Code with the help of ai. And I'm gonna learn how to code with the help of the ai. Because why not? 
 
 # 🌐 Join My Discord:
+
 [![Discord](https://img.shields.io/discord/899291097254228048?color=black&label=Join%20My%20Discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/NwWScqzXA8)
 
 # 📊 GitHub Stats:
@@ -15,10 +16,13 @@ I Code with the help of ai. And I'm gonna learn how to code with the help of the
 <p align="left"> 
     <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
     <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="30" height="30"/> </a> 
-    <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="30" height="30"/> </a>
-    <img src="https://img.icons8.com/color/48/000000/artificial-intelligence.png" alt="ai" width="25" height="25"/>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="31" height="31"/> </a> 
+    <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="31" height="31"/> </a>
+    <img src="https://img.icons8.com/color/48/000000/artificial-intelligence.png" alt="ai" width="29" height="29"/>
+    <a href="https://discord.js.org/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/discord-logo.png" alt="discord.js" width="29" height="29"/> </a>
 </p>
+
+
 ## 📊 Most Used Languages
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MAJ-TT&layout=compact&bg_color=000000&title_color=ffffff&text_color=ffffff)
