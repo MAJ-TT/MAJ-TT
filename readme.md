@@ -1,17 +1,28 @@
 # Hello, I'm MAJ! 👋
 I'm currently in the process of learning how to code.
-I'm a beginner and know mostly basics
+I'm a beginner and know mostly basics.
+
 I Code with the help of ai. And I'm gonna learn how to code with the help of the ai. Because why not? 
+
 Don't worry I am also looking at docs, not blindly using ai. :D
+
 I started my journey with disord bots. Let's see how it progresses.
+
+
 
 ## 🌐 Join My Discord:
 
 [![Discord](https://img.shields.io/discord/899291097254228048?color=black&label=Join%20My%20Discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/NwWScqzXA8)
 
+
+
+
 ## 📊 GitHub Stats:
 
 ![MAJ-TT's GitHub stats](https://github-readme-stats.vercel.app/api?username=MAJ-TT&show_icons=true&bg_color=000000&title_color=ffffff&text_color=ffffff&icon_color=#1B85F2)
+
+
+
 
 ## 🚀 Languages and Tools:
 
@@ -25,16 +36,24 @@ I started my journey with disord bots. Let's see how it progresses.
 </p>
 
 
+
+
 ## 📊 Most Used Languages
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MAJ-TT&layout=compact&bg_color=000000&title_color=ffffff&text_color=ffffff)
+
+
+
 
 ## 🏆 GitHub Trophies
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=MAJ-TT&theme=darkhub)](https://github.com/ryo-ma/github-profile-trophy)
 
 
+
+
 ## Shields / Badges
+
 ![GitHub followers](https://img.shields.io/github/followers/MAJ-TT?style=for-the-badge&logo=github&color=black&logoColor=white&labelColor=black)
 ![GitHub forks](https://img.shields.io/github/forks/MAJ-TT/MAJ-TT?style=for-the-badge&logo=github&color=black&logoColor=white&labelColor=black)
 ![GitHub stars](https://img.shields.io/github/stars/MAJ-TT/MAJ-TT?style=for-the-badge&logo=github&color=black&logoColor=white&labelColor=black)
