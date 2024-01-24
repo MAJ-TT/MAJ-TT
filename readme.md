@@ -1,6 +1,6 @@
 # Hello, I'm MAJ! 👋
 
-![MAJ-TT's GitHub stats](https://github-readme-stats.vercel.app/api?username=MAJ-TT&show_icons=true&theme=radical)
+![MAJ-TT's GitHub stats](https://github-readme-stats.vercel.app/api?username=MAJ-TT&show_icons=true&bg_color=000000&title_color=ffffff&text_color=ffffff&icon_color=bb2acf)
 
 ## 🚀 Languages and Tools:
 
@@ -17,15 +17,17 @@
 
 ## 🏆 GitHub Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=MAJ-TT)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=MAJ-TT&theme=darkhub)](https://github.com/ryo-ma/github-profile-trophy)
 
 
-## Sheilds / Badges
-![GitHub followers](https://img.shields.io/github/followers/MAJ-TT?style=social)
+## Shields / Badges
+![GitHub followers](https://img.shields.io/github/followers/MAJ-TT?style=for-the-badge&logo=github&color=black&logoColor=white&labelColor=black)
 
-![GitHub forks](https://img.shields.io/github/forks/MAJ-TT/MAJ-TT?style=social)
+![GitHub forks](https://img.shields.io/github/forks/MAJ-TT/MAJ-TT?style=for-the-badge&logo=github&color=black&logoColor=white&labelColor=black)
 
-![GitHub stars](https://img.shields.io/github/stars/MAJ-TT/MAJ-TT?style=social)
+![GitHub stars](https://img.shields.io/github/stars/MAJ-TT/MAJ-TT?style=for-the-badge&logo=github&color=black&logoColor=white&labelColor=black)
 
-![GitHub followers](https://img.shields.io/github/followers/MAJ-TT?style=social&color=blue)
+![GitHub watchers](https://img.shields.io/github/watchers/MAJ-TT/MAJ-TT?style=for-the-badge&logo=github&color=black&logoColor=white&labelColor=black)
+
+
 
