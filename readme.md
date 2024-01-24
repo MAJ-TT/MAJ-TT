@@ -22,11 +22,8 @@
 
 ## Shields / Badges
 ![GitHub followers](https://img.shields.io/github/followers/MAJ-TT?style=for-the-badge&logo=github&color=black&logoColor=white&labelColor=black)
-
 ![GitHub forks](https://img.shields.io/github/forks/MAJ-TT/MAJ-TT?style=for-the-badge&logo=github&color=black&logoColor=white&labelColor=black)
-
 ![GitHub stars](https://img.shields.io/github/stars/MAJ-TT/MAJ-TT?style=for-the-badge&logo=github&color=black&logoColor=white&labelColor=black)
-
 ![GitHub watchers](https://img.shields.io/github/watchers/MAJ-TT/MAJ-TT?style=for-the-badge&logo=github&color=black&logoColor=white&labelColor=black)
 
 
