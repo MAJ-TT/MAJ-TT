@@ -8,16 +8,16 @@ I Code with the help of ai. And I'm gonna learn how to code with the help of the
 
 # 📊 GitHub Stats:
 
-![MAJ-TT's GitHub stats](https://github-readme-stats.vercel.app/api?username=MAJ-TT&show_icons=true&bg_color=000000&title_color=ffffff&text_color=ffffff&icon_color=0000ff)
+![MAJ-TT's GitHub stats](https://github-readme-stats.vercel.app/api?username=MAJ-TT&show_icons=true&bg_color=000000&title_color=ffffff&text_color=ffffff&icon_color=#1B85F2)
 
 ## 🚀 Languages and Tools:
 
 <p align="left"> 
     <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
     <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
-    <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
-    <img src="https://img.icons8.com/color/48/000000/artificial-intelligence.png" alt="ai" width="40" height="40"/>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="30" height="30"/> </a> 
+    <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="30" height="30"/> </a>
+    <img src="https://img.icons8.com/color/48/000000/artificial-intelligence.png" alt="ai" width="25" height="25"/>
 </p>
 ## 📊 Most Used Languages
 
