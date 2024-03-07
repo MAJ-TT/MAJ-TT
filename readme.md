@@ -12,7 +12,7 @@ I started my journey with disord bots. Let's see how it progresses.
 
 ## 🌐 Join My Discord:
 
-[![Discord](https://img.shields.io/discord/899291097254228048?color=black&label=Join%20My%20Discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/NwWScqzXA8)
+[![Discord](https://img.shields.io/discord/899291097254228048?color=black&label=Join%20My%20Discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/RwPzkm4Ddw)
 
 
 
