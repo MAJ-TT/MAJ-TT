@@ -1,12 +1,5 @@
 # Hello, I'm MAJ! 👋
-I'm currently in the process of learning how to code.
-I'm a beginner and know mostly basics.
-
-I Code with the help of ai. And I'm gonna learn how to code with the help of the ai. Because why not? 
-
-Don't worry I am also looking at docs, not blindly using ai. :D
-
-I started my journey with disord bots. Let's see how it progresses.
+Peak Coding Journey
 
 
 
