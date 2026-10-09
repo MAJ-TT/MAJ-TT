@@ -23,11 +23,11 @@
     <div class="eyebrow">Ight Bot</div>
     <h1>Privacy Policy</h1>
     <p>This policy explains what information Ight Bot processes when providing Discord server management, moderation, tracking, welcome, Vanity, utility, and operational features.</p>
-    <p class="meta"><strong>Effective / last updated:</strong> September 30, 2026</p>
+    <p class="meta"><strong>Effective / last updated:</strong> October 9, 2026</p>
   </section>
 
   <div class="notice">
-    Ight Bot only uses Discord data for operating, securing, maintaining, and improving the bot's stated functionality. Discord data is not sold and is not used for targeted advertising.
+    Ight Bot uses Discord data only as reasonably necessary to operate, secure, maintain, and troubleshoot its stated functionality. Discord data is not sold and is not used for targeted advertising.
   </div>
 
   <h2>1. Who this policy covers</h2>
@@ -38,10 +38,10 @@
   <ul>
     <li><strong>Identifiers:</strong> Discord user IDs, guild/server IDs, channel IDs, role IDs, message IDs, invite codes, and related Discord object identifiers.</li>
     <li><strong>Member and role information:</strong> usernames/tags where supplied by Discord, account creation timestamps, membership events, roles, permissions, and role hierarchy information needed for moderation and automation.</li>
-    <li><strong>Message information:</strong> message content and metadata when required for prefix commands, configurable automod, message logging, deleted/edited message snipes, DM handling, and related features.</li>
+    <li><strong>Message information:</strong> message content and metadata when required for prefix commands, configurable automod, configured logging, deleted/edited message snipes, direct-message handling, and related features.</li>
     <li><strong>Command activity:</strong> command name, user ID, guild ID, execution time, success/failure state, and limited diagnostic information.</li>
     <li><strong>Invite and activity information:</strong> invite attribution/history and message-count statistics used for tracking and leaderboards.</li>
-    <li><strong>Presence information:</strong> when the optional Vanity feature is enabled, visible custom status activity may be inspected to match server-configured keywords and manage configured roles. Ight Bot does not attempt to bypass Discord profile privacy controls.</li>
+    <li><strong>Presence information:</strong> when the optional Vanity feature is enabled, custom status activity made available by Discord may be inspected to match server-configured keywords and manage configured roles.</li>
     <li><strong>Server configuration:</strong> prefixes, welcome/goodbye settings, automod settings, logging destinations, Vanity settings, role configuration, and premium/developer access records.</li>
     <li><strong>Moderation state:</strong> records needed to perform or restore moderation actions, such as jail or role-restoration state.</li>
     <li><strong>Operational information:</strong> resource usage, errors, and diagnostics needed to operate and secure the service.</li>
@@ -62,26 +62,19 @@
   </ul>
 
   <h2>4. Message content and temporary snipes</h2>
-  <p>Message Content access is used where required for existing prefix commands and content-based moderation or utility features.</p>
-  <p>Deleted and edited message snipes are stored only in the running bot process. Current limits are:</p>
-  <ul>
-    <li>up to 10 recent records per channel;</li>
-    <li>up to 1,000 channels per in-memory store;</li>
-    <li>automatic expiry after one hour;</li>
-    <li>automatic removal when the bot process restarts;</li>
-    <li>no persistence of snipe message content to MongoDB.</li>
-  </ul>
-  <p>Separately, server-configured moderation or message logging may send message content or excerpts to Discord channels or Discord webhooks chosen for that server. Once information is delivered to a Discord destination, retention there is controlled by that destination and its administrators.</p>
+  <p>Message Content access is used where required for existing prefix commands and content-based moderation, logging, or utility features.</p>
+  <p>In the current production release, deleted and edited message snipes are stored only in the running bot process. The bot keeps up to 10 recent deleted records and up to 10 recent edited records per channel. Records are replaced as newer events arrive and are cleared when the bot process restarts. The current production release does not apply a separate time-based expiry to these in-memory snipe records, and snipe message content is not written to MongoDB by these features.</p>
+  <p>Separately, server-configured moderation or message logging may send message content or excerpts to Discord channels or Discord webhooks selected for that server. Once information is delivered to a Discord destination, retention there is controlled by that destination and its administrators.</p>
 
   <h2>5. Direct messages</h2>
-  <p>If the optional DM-forwarding feature is configured by the bot operator, content and attachment URLs from direct messages sent to Ight Bot may be forwarded to an operator-controlled Discord webhook for support or operational handling. Do not send passwords, authentication tokens, financial information, or other highly sensitive information to the bot.</p>
+  <p>If the DM-forwarding feature is configured by the bot operator, content and attachment URLs from direct messages sent to Ight Bot may be forwarded to an operator-controlled Discord webhook for support or operational handling. Do not send passwords, authentication tokens, financial information, or other highly sensitive information to the bot.</p>
 
   <h2>6. Storage and retention</h2>
   <p>Ight Bot uses MongoDB for persistent application data and process memory for certain temporary data. Retention depends on the feature:</p>
   <table>
     <thead><tr><th>Data</th><th>Typical retention</th></tr></thead>
     <tbody>
-      <tr><td>Deleted/edited snipe content</td><td>Up to one hour in process memory only.</td></tr>
+      <tr><td>Deleted/edited snipe content</td><td>Current production keeps up to 10 recent records per channel in process memory until replaced by newer records or the bot process restarts.</td></tr>
       <tr><td>Server configuration</td><td>Retained while needed to provide configured bot functionality, or until removed through configuration or a valid deletion request.</td></tr>
       <tr><td>Message counts, invite history, command usage, operational/error records, moderation state, and access records</td><td>Some records do not currently have automatic time-based deletion and may remain until they are no longer needed, are cleaned up operationally, or are deleted following a valid request.</td></tr>
       <tr><td>Discord channel/webhook logs</td><td>Controlled by the relevant Discord server, webhook destination, and its administrators after delivery.</td></tr>
@@ -99,7 +92,7 @@
   </ul>
 
   <h2>8. Profile privacy and Vanity status roles</h2>
-  <p>The optional Vanity feature uses custom status information only when Discord makes that information available to the bot. If Discord's profile privacy settings prevent a custom status from being visible, Ight Bot does not attempt to circumvent that setting. Status information is used for current keyword matching and role behavior rather than maintaining a historical status profile.</p>
+  <p>The optional Vanity feature uses custom status information only when Discord provides that information to the bot. Ight Bot does not attempt to bypass Discord privacy, visibility, or access controls. If Discord does not provide a member's custom status, Vanity matching or role behavior for that member may be unavailable or affected. Ight Bot does not use this feature to build a historical profile of custom statuses.</p>
 
   <h2>9. Data access, correction, and deletion requests</h2>
   <p>You may request access to, correction of, or deletion of data associated with you where applicable. Server owners or administrators may also request deletion of server-specific Ight Bot configuration and records.</p>
