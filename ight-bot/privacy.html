@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Privacy Policy for Ight Bot.">
+  <title>Privacy Policy - Ight Bot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="shell">
+    <nav aria-label="Primary">
+      <a class="brand" href="./">Ight Bot</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="https://discord.gg/n68kDA5pab">Support</a>
+    </nav>
+  </div>
+</header>
+<main class="shell">
+  <section class="hero">
+    <div class="eyebrow">Ight Bot</div>
+    <h1>Privacy Policy</h1>
+    <p>This policy explains what information Ight Bot processes when providing Discord server management, moderation, tracking, welcome, Vanity, utility, and operational features.</p>
+    <p class="meta"><strong>Effective / last updated:</strong> October 9, 2026</p>
+  </section>
+
+  <div class="notice">
+    Ight Bot uses Discord data only as reasonably necessary to operate, secure, maintain, and troubleshoot its stated functionality. Discord data is not sold and is not used for targeted advertising.
+  </div>
+
+  <h2>1. Who this policy covers</h2>
+  <p>This policy applies to users and Discord servers that interact with Ight Bot. Server administrators may choose which optional Ight Bot features to configure. Some features process more data than others.</p>
+
+  <h2>2. Information Ight Bot may process</h2>
+  <p>Depending on the features used in a server, Ight Bot may process the following categories of Discord data:</p>
+  <ul>
+    <li><strong>Identifiers:</strong> Discord user IDs, guild/server IDs, channel IDs, role IDs, message IDs, invite codes, and related Discord object identifiers.</li>
+    <li><strong>Member and role information:</strong> usernames/tags where supplied by Discord, account creation timestamps, membership events, roles, permissions, and role hierarchy information needed for moderation and automation.</li>
+    <li><strong>Message information:</strong> message content and metadata when required for prefix commands, configurable automod, configured logging, deleted/edited message snipes, direct-message handling, and related features.</li>
+    <li><strong>Command activity:</strong> command name, user ID, guild ID, execution time, success/failure state, and limited diagnostic information.</li>
+    <li><strong>Invite and activity information:</strong> invite attribution/history and message-count statistics used for tracking and leaderboards.</li>
+    <li><strong>Presence information:</strong> when the optional Vanity feature is enabled, custom status activity made available by Discord may be inspected to match server-configured keywords and manage configured roles.</li>
+    <li><strong>Server configuration:</strong> prefixes, welcome/goodbye settings, automod settings, logging destinations, Vanity settings, role configuration, and premium/developer access records.</li>
+    <li><strong>Moderation state:</strong> records needed to perform or restore moderation actions, such as jail or role-restoration state.</li>
+    <li><strong>Operational information:</strong> resource usage, errors, and diagnostics needed to operate and secure the service.</li>
+  </ul>
+
+  <h2>3. How information is used</h2>
+  <p>Ight Bot uses this information only as reasonably necessary to provide its features, including:</p>
+  <ul>
+    <li>running prefix and application commands;</li>
+    <li>moderation, automod, role management, and permission checks;</li>
+    <li>welcome and goodbye messages and invite attribution;</li>
+    <li>message and invite tracking and leaderboards;</li>
+    <li>Vanity custom-status keyword matching and role automation;</li>
+    <li>temporary deleted-message and edited-message snipe features;</li>
+    <li>configured Discord logging and webhook delivery;</li>
+    <li>premium/developer access management;</li>
+    <li>abuse prevention, troubleshooting, performance monitoring, and service security.</li>
+  </ul>
+
+  <h2>4. Message content and temporary snipes</h2>
+  <p>Message Content access is used where required for existing prefix commands and content-based moderation, logging, or utility features.</p>
+  <p>In the current production release, deleted and edited message snipes are stored only in the running bot process. The bot keeps up to 10 recent deleted records and up to 10 recent edited records per channel. Records are replaced as newer events arrive and are cleared when the bot process restarts. The current production release does not apply a separate time-based expiry to these in-memory snipe records, and snipe message content is not written to MongoDB by these features.</p>
+  <p>Separately, server-configured moderation or message logging may send message content or excerpts to Discord channels or Discord webhooks selected for that server. Once information is delivered to a Discord destination, retention there is controlled by that destination and its administrators.</p>
+
+  <h2>5. Direct messages</h2>
+  <p>If the DM-forwarding feature is configured by the bot operator, content and attachment URLs from direct messages sent to Ight Bot may be forwarded to an operator-controlled Discord webhook for support or operational handling. Do not send passwords, authentication tokens, financial information, or other highly sensitive information to the bot.</p>
+
+  <h2>6. Storage and retention</h2>
+  <p>Ight Bot uses MongoDB for persistent application data and process memory for certain temporary data. Retention depends on the feature:</p>
+  <table>
+    <thead><tr><th>Data</th><th>Typical retention</th></tr></thead>
+    <tbody>
+      <tr><td>Deleted/edited snipe content</td><td>Current production keeps up to 10 recent records per channel in process memory until replaced by newer records or the bot process restarts.</td></tr>
+      <tr><td>Server configuration</td><td>Retained while needed to provide configured bot functionality, or until removed through configuration or a valid deletion request.</td></tr>
+      <tr><td>Message counts, invite history, command usage, operational/error records, moderation state, and access records</td><td>Some records do not currently have automatic time-based deletion and may remain until they are no longer needed, are cleaned up operationally, or are deleted following a valid request.</td></tr>
+      <tr><td>Discord channel/webhook logs</td><td>Controlled by the relevant Discord server, webhook destination, and its administrators after delivery.</td></tr>
+    </tbody>
+  </table>
+  <p>Removing Ight Bot from a server does not necessarily cause every pre-existing database record to be deleted immediately. A server owner, administrator, or affected user may request deletion as described below.</p>
+
+  <h2>7. Sharing and service providers</h2>
+  <p>Ight Bot does not sell Discord API data. Information may be transmitted or made available only where necessary to operate the service, including:</p>
+  <ul>
+    <li><strong>Discord:</strong> to send bot responses, moderation actions, configured logs, and webhook messages through Discord's platform;</li>
+    <li><strong>database and hosting providers:</strong> to operate the bot and store application data, including MongoDB infrastructure;</li>
+    <li><strong>server-selected destinations:</strong> Discord channels or webhooks configured for logging or automation;</li>
+    <li><strong>legal or safety requirements:</strong> where disclosure is required by applicable law or reasonably necessary to protect users, the service, or others.</li>
+  </ul>
+
+  <h2>8. Profile privacy and Vanity status roles</h2>
+  <p>The optional Vanity feature uses custom status information only when Discord provides that information to the bot. Ight Bot does not attempt to bypass Discord privacy, visibility, or access controls. If Discord does not provide a member's custom status, Vanity matching or role behavior for that member may be unavailable or affected. Ight Bot does not use this feature to build a historical profile of custom statuses.</p>
+
+  <h2>9. Data access, correction, and deletion requests</h2>
+  <p>You may request access to, correction of, or deletion of data associated with you where applicable. Server owners or administrators may also request deletion of server-specific Ight Bot configuration and records.</p>
+  <p>Submit a request through the <a href="https://discord.gg/n68kDA5pab">Ight Bot support server</a>. Include enough information to identify the relevant Discord account or server, such as the Discord user ID or guild ID. Additional verification may be requested to prevent unauthorized deletion of another person's or server's data.</p>
+
+  <h2>10. Security</h2>
+  <p>Reasonable technical and organizational safeguards are used to reduce unauthorized access, disclosure, or misuse. No networked service can guarantee absolute security. Users should never provide Ight Bot with passwords, Discord tokens, or other authentication credentials.</p>
+
+  <h2>11. Children's privacy</h2>
+  <p>Ight Bot is intended for use through Discord and is not directed to people who are below the minimum age permitted to use Discord in their jurisdiction.</p>
+
+  <h2>12. Changes to this policy</h2>
+  <p>This policy may be updated when Ight Bot's functionality, data practices, legal obligations, or Discord platform requirements change. The updated date at the top of this page will be revised when material changes are published.</p>
+
+  <h2>13. Contact</h2>
+  <p>For privacy questions or data requests, contact the Ight Bot operator through the <a href="https://discord.gg/n68kDA5pab">support server</a>.</p>
+
+  <p class="muted">Ight Bot is independently operated and is not endorsed by or affiliated with Discord Inc.</p>
+</main>
+<footer>
+  <div class="shell"><a href="./">Ight Bot Legal</a> · <a href="terms.html">Terms of Service</a></div>
+</footer>
+</body>
+</html>
